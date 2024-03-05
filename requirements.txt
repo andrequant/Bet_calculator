@@ -1,5 +1,4 @@
 streamlit
 numpy
 scipy
-itertools
 plotly
