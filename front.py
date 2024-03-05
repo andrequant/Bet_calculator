@@ -32,7 +32,7 @@ st.session_state.table_odds = {row: {col: "" for col in range(3)} for row in ran
 
 # Function to display the table with text_input for each cell
 def display_table_names():
-    st.write('Teams Names')
+    st.write('Team Names')
     for row in range(x):
         cols = st.columns(2)
         for col, st_col in zip(range(2), cols):
